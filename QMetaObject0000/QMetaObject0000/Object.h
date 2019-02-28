@@ -49,6 +49,7 @@ public:
 Q_SIGNALS:
 	void ageChanged(int age);
 	void nameChanged(QString name);
+    void telNumberChanged(int, int);
 
 protected Q_SLOTS:
 	void onAgeChanged(int age) 
