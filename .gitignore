@@ -1,5 +1,16 @@
+# Qt
 *.pro.user
 *.pro.user*
 build-*/
-bin/
+
+# vs
 .vs/
+Win32/
+Debug/
+Release/
+GeneratedFiles/
+*.vcxproj.user
+*.vcxproj.user*
+
+#
+bin/
