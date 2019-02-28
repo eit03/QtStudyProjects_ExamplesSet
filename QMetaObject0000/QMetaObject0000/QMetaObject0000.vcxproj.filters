@@ -26,8 +26,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Object.h">
+      <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
 </Project>
